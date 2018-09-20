@@ -5,6 +5,7 @@ using namespace std;
 int main(){
 	int y=5;
 	int *yPtr=nullptr; // * Operador de indirección
+	int x = 3;
 
 	cout<<"===================="<<endl;
 	cout<<"\tAl comienzo"<<endl;
@@ -17,6 +18,15 @@ int main(){
 	cout<<"\tLuego de asignar"<<endl;
 	cout<<"\tValor de yPtr: "<<yPtr<<endl;
 	cout<<"\tValor de *yPtr: "<<*yPtr<<endl;
+
+
+	x = *yPtr;
+	cout<<"Numero x: "<<x<<endl;
+	cout<<"valor de &X: "<<&x<<endl;
+	cout<<"valor de &Y: "<<&y<<endl;
+	cout<<"valor de &yPtr: "<<&yPtr<<endl;
+
+
 
 	cout<<"\n===================="<<endl;
 	cout<<"\tDesreferenciando"<<endl;

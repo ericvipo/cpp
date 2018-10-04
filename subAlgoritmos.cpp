@@ -23,14 +23,14 @@ int menu(){
 
 //Procedimiento con paso
 //de parámetros por referencia
-void ParImpar(int num, string &res){
+void ParImpar(int num, string &response){
 	string r="";
 
 	if(num%2==0)
 		r="PAR";
 	else
 		r="IMPAR";
-	res=r;
+	response=r;
 }
 
 int factorial(int num){

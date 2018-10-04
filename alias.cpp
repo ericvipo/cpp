@@ -11,5 +11,12 @@ int main(){
 	cout<<apd<<endl;
 	cout<<a<<endl;
 
+	cout<<"por 5"<<endl;
+	apd = apd *5;
+
+	cout<<endl;
+	cout<<apd<<endl;
+	cout<<a<<endl;
+
 	return 0;
 }
